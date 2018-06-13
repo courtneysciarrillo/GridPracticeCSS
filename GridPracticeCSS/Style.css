@@ -1,0 +1,70 @@
+﻿.container {
+    display: grid;
+    grid-gap: 3px 3px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 275px 175px 90px;
+    max-width: 1336px;
+    width: 100%;
+}
+
+.header {
+    grid-column: 1 / span 6;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+    font-family: Cambria;
+    line-height: 100px;
+}
+
+.main-content {
+    grid-column: 2 / span 3;
+    grid-row-start: 2;
+    background-color: lawngreen;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria;
+    line-height: 275px;
+}
+
+.sidebar {
+    grid-column: 5 / span 1;
+    grid-row-start: 2;
+    background-color: fuchsia;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria;
+    line-height: 275px;
+}
+
+.twin-one {
+    grid-column: 2 / span 2;
+    grid-row-start: 3;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria;
+    line-height: 175px;
+}
+
+.twin-two {
+    grid-column: 4 / span 2;
+    grid-row-start: 3;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria;
+    line-height: 175px;
+}
+
+.footer {
+    grid-column: 1 / span 6;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: Cambria;
+    line-height: 90px;
+}
