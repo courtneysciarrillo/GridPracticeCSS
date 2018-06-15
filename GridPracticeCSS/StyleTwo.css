@@ -3,13 +3,14 @@
     grid-gap: 10px 10px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 100px);
-    max-width: 1000px;
+    max-width: 1350px;
     width: 100%;
+    margin: auto;
 }
 
 .grid-item-1 {
     grid-column: 1 / span 12;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -19,7 +20,7 @@
 .grid-item-2 {
     grid-row-start: 2;
     grid-column: 1 / span 6;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -29,7 +30,7 @@
 .grid-item-3 {
     grid-row-start: 2;
     grid-column: 7 / span 6;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -39,7 +40,7 @@
 .grid-item-4 {
     grid-row-start: 3;
     grid-column: 1 / span 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -49,7 +50,7 @@
 .grid-item-5 {
     grid-row-start: 3;
     grid-column: 5 / span 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -59,7 +60,7 @@
 .grid-item-6 {
     grid-row-start: 3;
     grid-column: 9 / span 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -69,7 +70,7 @@
 .grid-item-7 {
     grid-row-start: 4;
     grid-column: 1 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -79,7 +80,7 @@
 .grid-item-8 {
     grid-row-start: 4;
     grid-column: 4 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -89,7 +90,7 @@
 .grid-item-9 {
     grid-row-start: 4;
     grid-column: 7 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -99,7 +100,7 @@
 .grid-item-10 {
     grid-row-start: 4;
     grid-column: 10 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -109,7 +110,7 @@
 .grid-item-11 {
     grid-row-start: 5;
     grid-column: 1 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -119,7 +120,7 @@
 .grid-item-12 {
     grid-row-start: 5;
     grid-column: 3 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -129,7 +130,7 @@
 .grid-item-13 {
     grid-row-start: 5;
     grid-column: 5 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -139,7 +140,7 @@
 .grid-item-14 {
     grid-row-start: 5;
     grid-column: 7 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -149,7 +150,7 @@
 .grid-item-15 {
     grid-row-start: 5;
     grid-column: 9 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -159,7 +160,7 @@
 .grid-item-16 {
     grid-row-start: 5;
     grid-column: 11 / span 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -169,7 +170,7 @@
 .grid-item-17 {
     grid-row-start: 6;
     grid-column: 1;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -179,7 +180,7 @@
 .grid-item-18 {
     grid-row-start: 6;
     grid-column: 2;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -189,7 +190,7 @@
 .grid-item-19 {
     grid-row-start: 6;
     grid-column: 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -199,7 +200,7 @@
 .grid-item-20 {
     grid-row-start: 6;
     grid-column: 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -209,7 +210,7 @@
 .grid-item-21 {
     grid-row-start: 6;
     grid-column: 5;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -219,7 +220,7 @@
 .grid-item-22 {
     grid-row-start: 6;
     grid-column: 6;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -229,7 +230,7 @@
 .grid-item-23 {
     grid-row-start: 6;
     grid-column: 7;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -239,7 +240,7 @@
 .grid-item-24 {
     grid-row-start: 6;
     grid-column: 8;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -249,7 +250,7 @@
 .grid-item-25 {
     grid-row-start: 6;
     grid-column: 9;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -259,7 +260,7 @@
 .grid-item-26 {
     grid-row-start: 6;
     grid-column: 10;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -269,7 +270,7 @@
 .grid-item-27 {
     grid-row-start: 6;
     grid-column: 11;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;
@@ -279,7 +280,7 @@
 .grid-item-28 {
     grid-row-start: 6;
     grid-column: 12;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     color: white;
     font-size: 28px;
     text-align: center;

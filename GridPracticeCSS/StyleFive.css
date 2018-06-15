@@ -3,46 +3,52 @@
     grid-gap: 9px 9px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 100px);
-    max-width: 1000px;
-    width: 90%;
+    max-width: 1350px;;
+    width: 100%;
+    margin: auto;
 }
 
 .grid-item-1 {
     grid-row: 1;
     grid-column: 1 / span 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     text-indent: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 .grid-item-2 {
     grid-row: 2 / span 4;
     grid-column: 1;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     text-indent: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 .grid-item-3 {
     grid-row: 2 / span 3;
     grid-column: 2 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     text-indent: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 .grid-item-4 {
     grid-row: 5;
     grid-column: 2 / span 3;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     text-indent: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
 
 .grid-item-5 {
     grid-row: 6;
     grid-column: 1 / span 4;
-    background-color: greenyellow;
+    background-color: rgb(155, 206, 11);
     text-indent: 20px;
     line-height: 50px;
+    font-weight: bold;
 }
